@@ -6,7 +6,6 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MapComponent } from './map/map.component';
 import { DetailsComponent } from './details/details.component';
-import { ChartComponent } from './chart/chart.component';
 
 import { WeatherService } from './weather.service';
 
@@ -14,8 +13,7 @@ import { WeatherService } from './weather.service';
   declarations: [
     AppComponent,
     MapComponent,
-    DetailsComponent,
-    ChartComponent
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
